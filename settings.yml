@@ -5,3 +5,12 @@ code-bucket: gordon-jruby-5195ba36
 apps:
   - gordon.contrib.lambdas
   - firstapp
+
+apigateway:
+  helloapi:
+    description: Hello World API
+    resources:
+      /:
+        methods: [GET, POST]
+        integration:
+          lambda: firstapp.helloworld
