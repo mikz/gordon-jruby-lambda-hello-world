@@ -1,0 +1,7 @@
+---
+project: jruby
+default-region: eu-central-1
+code-bucket: gordon-jruby-5195ba36
+apps:
+  - gordon.contrib.lambdas
+  - firstapp
